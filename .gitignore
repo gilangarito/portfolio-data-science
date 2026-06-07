@@ -75,8 +75,22 @@ docs/_build/
 .pybuilder/
 target/
 
+# Large datasets
+data/raw/
+data/processed/
+
+# Models
+models/
+
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# VS Code
+.vscode/
 
 # IPython
 profile_default/
